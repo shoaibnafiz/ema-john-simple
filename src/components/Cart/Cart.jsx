@@ -11,7 +11,7 @@ const Cart = ({ cart }) => {
         totalPrice += product.price;
         totalShipping += product.shipping;
     }
-    const totalTax = (totalPrice * 0.07).toFixed(2);
+    const totalTax = (totalPrice * 0.07);
     const grandTotal = totalPrice + totalShipping + totalTax;
     // const reducer = (prev, current) => prev + current.price;
     // const totalPrice = reducer(cart, 0);
@@ -21,8 +21,8 @@ const Cart = ({ cart }) => {
             <p>Selected Items: {cart.length}</p>
             <p>Total Price: ${totalPrice}</p>
             <p>Shipping: ${totalShipping}</p>
-            <p>Tax: ${totalTax}</p>
-            <h6>Grand Total: ${grandTotal}</h6>
+            <p>Tax: ${totalTax.toFixed(2)}</p>
+            <h6>Grand Total: ${grandTotal.toFixed(2)}</h6>
         </div>
     );
 };
