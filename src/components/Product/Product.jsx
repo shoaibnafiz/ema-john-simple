@@ -11,13 +11,13 @@ const Product = (props) => {
             <img src={img} alt="" />
             <div className='product-info'>
                 <h4 className='product-name'>{name}</h4>
-                <p style={{ "color": "#0E161A" }}>Price: ${price}</p>
-                <p style={{ "color": "#0E161A" }}>Manufacturer: {seller}</p>
-                <p style={{ "color": "#0E161A" }}>Rating: {ratings} Stars</p>
+                <p style={{ color: "#0E161A" }}>Price: ${price}</p>
+                <p style={{ color: "#0E161A" }}>Manufacturer: {seller}</p>
+                <p style={{ color: "#0E161A" }}>Rating: {ratings} Stars</p>
             </div>
             <button onClick={() => handleAddToCart(props.product)} className='btn-cart'>
                 Add to Cart
-                <FontAwesomeIcon style={{ "margin-left": "10px" }} icon={faShoppingCart} />
+                <FontAwesomeIcon style={{ marginLeft: "10px" }} icon={faShoppingCart} />
             </button>
         </div >
     );
