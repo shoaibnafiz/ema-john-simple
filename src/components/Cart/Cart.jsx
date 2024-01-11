@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './Cart.css'
 
 const Cart = ({ cart }) => {
@@ -17,8 +17,7 @@ const Cart = ({ cart }) => {
     }
     const totalTax = (totalPrice * 0.07);
     const grandTotal = totalPrice + totalShipping + totalTax;
-    // const reducer = (prev, current) => prev + current.price;
-    // const totalPrice = reducer(cart, 0);
+
     return (
         <div className='cart'>
             <h4>Order Summary</h4>

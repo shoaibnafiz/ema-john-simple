@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './Shop.css';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
@@ -60,7 +60,7 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div className="cart-container" style={{ color: "#0E161A" }}>
+            <div className="cart-container">
                 <Cart
                     cart={cart}
                 ></Cart>

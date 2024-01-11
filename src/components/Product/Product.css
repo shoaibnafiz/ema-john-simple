@@ -1,5 +1,8 @@
 .product {
-    width: 300px;
+    /* width: 300px; */
+    margin: 0 auto;
+    max-width: 300px;
+    min-width: 200px;
     height: 510px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
@@ -15,7 +18,6 @@
 
 .product-info {
     margin-left: 14px;
-
 }
 
 .product-name {

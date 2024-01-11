@@ -1,6 +1,6 @@
 .shop-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    /* grid-template-columns: 2fr 1fr; */
 }
 
 .products-container {
@@ -11,6 +11,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
     .shop-container {
         grid-template-columns: 3fr 1fr;
     }
@@ -20,7 +26,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1280px) {
     .shop-container {
         grid-template-columns: 4fr 1fr;
     }
