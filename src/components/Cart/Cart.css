@@ -5,3 +5,31 @@
     position: sticky;
     top: 0;
 }
+
+.btn-clear-cart {
+    background-color: #FF3030;
+    border-radius: 4px;
+    height: 56px;
+    /* font-size: 21px; */
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proceed-link {
+    text-decoration: none;
+}
+
+.btn-proceed {
+    background-color: #FF9900;
+    border-radius: 4px;
+    height: 56px;
+    /* font-size: 21px; */
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

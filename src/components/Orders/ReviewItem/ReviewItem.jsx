@@ -21,4 +21,4 @@ const ReviewItem = ({ product, handleRmoveFromCart }) => {
 };
 
 export default ReviewItem;
-ReviewItem.propTypes = { product: Object };
+ReviewItem.propTypes = { product: Object, handleRmoveFromCart: Function };
